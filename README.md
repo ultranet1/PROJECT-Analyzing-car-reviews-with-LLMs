@@ -109,4 +109,4 @@ Evaluates the newly generated summary text using the Hugging Face `evaluate` lib
 
 * `with torch.no_grad():`: Context configuration setting that disables tracking autograd gradient histories, reducing compute overhead during strict inference loops.
 * `torch.argmax(dim=-1).item()`: Tensor reduction sequence extracting the highest numeric confidence prediction index out from vector sets, converting tensors back to standard Python integer structures (`.item()`).
-* `accuracy_score()` / `f1_score()`: Standard performance metric evaluation handlers measuring predictive success rates by mapping arrays of correct answers against raw models output vectors.
+* `accuracy_score()` / `f1_score()`: Standard performance metric evaluation handlers measuring predictive success rates by mapping arrays of correct answers against raw models output vectors..
